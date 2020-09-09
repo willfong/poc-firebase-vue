@@ -37,5 +37,5 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-					GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
-					PROJECT_ID: poc-firebase-vue-1
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          PROJECT_ID: poc-firebase-vue-1
